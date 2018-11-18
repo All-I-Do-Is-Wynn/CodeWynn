@@ -1,0 +1,193 @@
+
+body {
+ 	margin: 0;
+  	font-family: Palatino Linotype, serif;
+	overflow:scroll;
+}
+
+/*----------------------------------*/
+/* Start of Headings and Navigation */
+.topnav {	
+	height:48px;
+  	background-color: #333;
+  	border-bottom: solid 2px #008080;
+}
+
+.topnavHeader {
+	padding: 10px 10px;
+		float: center;
+		text-align:center;
+		font-size: 300%;
+		color: #f2f2f2;
+		background: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  padding-bottom: 12px;
+  background-color: #008080;
+  color: white;
+}
+
+.topdiv {
+	height: 50px;
+	border-bottom: solid 2px #008080;
+	padding-left: 16px;
+}											
+
+/* End of Headings and Navigation */
+/*--------------------------------*/
+
+
+
+/*---------------------------*/
+/*Start of Home Page Styling */
+										/* Start of First Horizontal Divsion */
+div.splittop{
+	width: 100%;
+	height: 400px;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+div.lefttop {
+	float:left;
+	height:100%;
+	width:50%;
+	font-size: 25px;
+	text-align: center;
+}
+
+div.righttop {
+	float: left;	
+	height:100%;
+	width: 50%;
+	background: #008080;
+}
+										/* End of First horizontal division */
+										/* Start of Second horizontal division */
+div.splitmiddle {
+	width: 100%;
+	height: 400px;
+}
+
+div.leftmiddle {
+	float:left;
+	height:100%;
+	width:50%;
+	background: #008080;
+}
+
+div.rightmiddle {
+	float:left;
+	height:100%;
+	width:50%;
+	font-size: 25px;
+	text-align: center;	
+}
+										/* End of Second horizontal division */
+										/* Start of Third horizontal division */
+div.splitbottom{
+	width: 100%;
+	height: 400px;
+	padding-top:15px;
+	padding-bottom: 10px;
+}
+
+div.leftbottom {
+	float:left;
+	height:100%;
+	width:50%;
+	text-align: center;
+}
+
+div.rightbottom {
+	float: left;	
+	height:100%;
+	width: 50%;
+	background: #008080;
+}
+
+.textbox {
+	padding-top: 50px;
+	padding-left: 15px;
+	padding-right:15px;
+	font-size: 30px;
+	overflow:hidden;
+}
+
+.Image {
+height: 80%;
+	width:80%;
+	margin: auto auto auto auto;
+	vertical-align: center;
+	display: block;
+}
+										/* End of Third horizontal division */
+										/* Start of Very bottom */
+div.verybottom {
+	height: 100px;
+	width: auto;
+	background: #333;
+	padding-top:35px;
+	padding-left: 35%;
+}
+
+.verybottom a {
+	text-decoration:none;
+	color: white;
+}
+
+.verybottom a:hover {
+	color: #008080;
+}
+
+.verybottom a.active {
+  background-color: #008080;
+  color: white;
+}
+										/*End of Very bottom */
+	
+
+/* End of Home page Styling */
+/*--------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
