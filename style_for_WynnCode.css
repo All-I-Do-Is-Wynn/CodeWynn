@@ -133,8 +133,8 @@ div.rightbottom {
 }
 
 .Image {
-height: 80%;
-	width:80%;
+	height: 100%;
+	width:50%;
 	margin: auto auto auto auto;
 	vertical-align: center;
 	display: block;
@@ -155,7 +155,7 @@ div.verybottom {
 }
 
 .verybottom a:hover {
-	color: #008080;
+	background-color: #008080;
 }
 
 .verybottom a.active {
