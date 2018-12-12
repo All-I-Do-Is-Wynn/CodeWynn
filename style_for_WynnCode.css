@@ -1,7 +1,9 @@
-
+*{
+	box-sizing: border-box;
+}
 body {
  	margin: 0;
-  	font-family: Palatino Linotype, serif;
+  	font-family: sans-serif;
 	overflow:scroll;
 }
 
@@ -29,6 +31,12 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+
+.boxes::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .topnav a:hover {
