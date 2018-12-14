@@ -75,6 +75,7 @@ img{
 /*Start of Home Page Styling */
 										/* Start of First Horizontal Divsion */
 div.splittop{
+	clear: left;
 	width: 50%;
 	height: 400px;
 }
