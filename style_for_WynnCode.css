@@ -59,6 +59,11 @@ body {
 	padding-left: 16px;
 }											
 
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
 /* End of Headings and Navigation */
 /*--------------------------------*/
 
