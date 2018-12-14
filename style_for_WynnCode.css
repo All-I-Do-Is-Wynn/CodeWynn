@@ -24,6 +24,10 @@ body {
 		background: #333;
 }
 
+.topnavHeaderRight{
+	width:50%;
+}
+
 .topnav a {
   float: left;
   color: #f2f2f2;
