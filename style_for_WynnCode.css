@@ -15,7 +15,7 @@ body {
   	border-bottom: solid 2px #008080;
 }
 
-.topnavHeaderLeft {
+.topnavHeader{
 		float: left;
 		text-align:left;
 		font-size: 300%;
