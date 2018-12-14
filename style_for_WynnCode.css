@@ -34,11 +34,11 @@ body {
   font-size: 17px;
 }
 
-.boxes::after{
+/*.boxes::after{
     content: "";
     display: table;
     clear: both;
-}
+}*/
 
 .topnav a:hover {
   background-color: #ddd;
@@ -52,6 +52,7 @@ body {
 }
 
 .topdiv {
+	clear:left;
 	height: 50px;
 	border-bottom: solid 2px #008080;
 	padding-left: 16px;
