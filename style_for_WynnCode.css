@@ -15,17 +15,12 @@ body {
   	border-bottom: solid 2px #008080;
 }
 
-.topnavHeader {
+.topnavHeaderLeft {
 		float: left;
-		width: 50%;
-		text-align:center;
+		text-align:left;
 		font-size: 300%;
 		color: #f2f2f2;
 		background: #333;
-}
-
-.topnavHeaderRight{
-	width:50%;
 }
 
 .topnav a {
