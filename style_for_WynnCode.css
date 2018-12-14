@@ -24,8 +24,6 @@ body {
 		color: rgb(60,180,120);
 		background: #333;
 		height: 75px;
-		border: 3px dotted red;
-		padding-top:5px;
 }
 
 .topnav a {
@@ -75,7 +73,6 @@ img{
 /*Start of Home Page Styling */
 										/* Start of First Horizontal Divsion */
 div.splittop{
-	clear: left;
 	width: 50%;
 	height: 400px;
 }
@@ -88,7 +85,6 @@ div.lefttop {
 }
 
 div.righttop {
-	float: left;	
 	height:100%;
 	background: #008080;
 }
