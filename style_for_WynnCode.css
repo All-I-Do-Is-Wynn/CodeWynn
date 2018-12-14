@@ -16,6 +16,7 @@ body {
 }
 
 .topnavHeader{
+		margin-top: 0;
 		float: left;
 		width:100%;
 		text-align:left;
