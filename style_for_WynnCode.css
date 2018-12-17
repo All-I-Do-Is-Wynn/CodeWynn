@@ -51,7 +51,6 @@ body {
 }
 
 .topdiv {
-	clear:left;
 	height: 50px;
 	width: 100%;
 	border-bottom: solid 2px #008080;
