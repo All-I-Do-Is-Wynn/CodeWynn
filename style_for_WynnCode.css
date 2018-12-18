@@ -9,11 +9,11 @@ body {
 
 /*----------------------------------*/
 /* Start of Headings and Navigation */
-.topnav {	
+/*.topnav {	
 	height:48px;
   	background: #333;
   	border-bottom: solid 2px #008080;
-}
+}*/
 
 .topnavHeader{
 		margin-top: 0;
@@ -32,6 +32,10 @@ body {
   padding: 14px 16px;
   font-size: 17px;
   background: #333;
+  color: rgb(60,180,120);
+  border-bottom: solid 2px #008080;
+  width: 100%;
+  height: 48px;
 }
 
 /*.boxes::after{
