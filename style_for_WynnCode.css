@@ -72,7 +72,7 @@ img{
 /*Start of Home Page Styling */
 										/* Start of First Horizontal Divsion */
 div.splittop{
-	width: 50%;
+	width: 100%;
 	height: 400px;
 }
 
@@ -81,11 +81,13 @@ div.lefttop {
 	height:100%;
 	font-size: 25px;
 	text-align: center;
+	width: 50%;
 }
 
 div.righttop {
 	height:100%;
 	background: #008080;
+	width: 50%;
 }
 										/* End of First horizontal division */
 										/* Start of Second horizontal division */
