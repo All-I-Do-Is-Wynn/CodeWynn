@@ -1,4 +1,14 @@
-.header {grid-area: header;}
+.header {
+    grid-area: header;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width:100%;
+    text-align:left;
+    font-size: 300%;
+    color: rgb(60,180,120);
+    background: #333;
+    height: 75px;}
 .nav {
     grid-area: nav;
     height:48px;
@@ -23,14 +33,34 @@
     color: #ddd;
 }
 
-.topnav a.active {
+.nav a.active {
     padding-bottom: 12px;
     background-color: #008080;
     color: white;
 }
 
 .para {grid-area: para;}
-.footer {grid-area: footer;}
+
+.footer {
+    grid-area: footer;
+    height: 100px;
+	width: auto;
+	background: #333;
+	padding-top:15px;
+    padding-left: 35%;}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+	background-color: #008080;
+}
+
+.footer a.active {
+    background-color: #008080;
+    color: white;
+}
 
 .grid-container{
     display: grid;
@@ -41,7 +71,6 @@
                          '. para para para .'
                          '. footer footer footer .';
     background-color:  darkblue;
-    padding: 10px;
 }
 
 .grid-container > div {
