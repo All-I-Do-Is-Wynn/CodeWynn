@@ -5,11 +5,12 @@
 
 .grid-container{
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 'header header header header header'
                          'nav nav nav nav nav'
                          '. para para para .'
                          '. footer footer footer .';
-    grid-gap: 10px;
     background-color:  darkblue;
     padding: 10px;
 }
