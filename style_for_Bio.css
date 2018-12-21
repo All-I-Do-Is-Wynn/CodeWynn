@@ -1,8 +1,8 @@
 .header {
     grid-area: header;
-    margin: 0;
+    /*margin: 0;
     padding: 0;
-    width:100%;
+    width:100%;*/
     text-align:left;
     font-size: 300%;
     color: rgb(60,180,120);
