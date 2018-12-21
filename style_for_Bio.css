@@ -1,0 +1,57 @@
+.header {grid-area: header;}
+.nav {grid-area: nav;}
+.para {grid-area: para;}
+.footer {grid-area: footer;}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 'header header header header header'
+                         'nav nav nav nav nav'
+                         '. para para para .'
+                         '. footer footer footer .';
+    grid-gap: 10px;
+    background-color:  darkblue;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: #ddd;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
