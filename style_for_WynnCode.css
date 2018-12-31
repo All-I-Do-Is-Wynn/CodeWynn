@@ -48,14 +48,14 @@ html, body {
 .topnav a:hover {
   background: #008080;
   color: #ddd;
-  border-bottom: #333;
+  border-bottom: solid 2px#333;
 }
 
 .topnav a.active {
   padding-bottom: 12px;
   background-color: #008080;
   color: white;
-  border-bottom: #333;
+  border-bottom: solid 2px#333;
 }
 
 .topdiv {
