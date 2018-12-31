@@ -36,6 +36,8 @@ html, body {
   border-bottom: solid 2px #008080;
   width: 16.666667%;
   height: 48px;
+  position: sticky;
+  top: 0;
 }
 
 /*.boxes::after{
