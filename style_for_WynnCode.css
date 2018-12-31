@@ -37,7 +37,7 @@ html, body {
   width: 16.666667%;
   height: 48px;
   position: sticky;
-  top: 0;
+  top: 0px;
 }
 
 /*.boxes::after{
